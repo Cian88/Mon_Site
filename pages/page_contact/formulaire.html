@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="css/formulaire.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/025470bfdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>CONTACT</title>
+  </head>
+  <body>
+    <div class="box">
+      <section class="menu ">
+        <div class="link ">
+          <div>
+            <a href="../page_portfolio/portfolio.html ">PORTFOLIO</a>
+          </div>
+          <br />
+          <div class="link_menu">
+            <a href="../Page_contact/formulaire.html" target="_blank "
+              >CONTACT</a
+            >
+          </div>
+          <br />
+          <div class="link_menu">
+            <a href="../Page_CV/CV.html" target="_blank ">CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="formulaire">
+        <div class="div-form">
+          <!--Section: Contact v.2-->
+          <section class="mb-4">
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">
+              CONTACT
+            </h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">
+              Vous avez des questions ? N'hésitez pas à me contacter directement
+              via le formulaire ci-dessous !
+            </p>
+
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-9 mb-md-0 mb-5">
+                <form
+                  id="contact-form"
+                  name="contact-form"
+                  action="mail.php"
+                  method="POST"
+                >
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          class="form-control"
+                        />
+                        <label for="name" class="">Nom</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          class="form-control"
+                        />
+                        <label for="email" class="">E-Mail</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <input
+                          type="text"
+                          id="subject"
+                          name="subject"
+                          class="form-control"
+                        />
+                        <label for="subject" class="">Sujet</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                      <div class="md-form">
+                        <textarea
+                          type="text"
+                          id="message"
+                          name="message"
+                          rows="5"
+                          class="form-control md-textarea"
+                        ></textarea>
+                        <label for="message">Votre message</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+                </form>
+
+                <div class="text-center text-md-left">
+                  <a
+                    class="btn btn-primary"
+                    onclick="document.getElementById('contact-form').submit();"
+                    >ENVOYER</a
+                  >
+                </div>
+                <div class="status"></div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a
+                      href="https://www.google.com/maps/place/Nancy/data=!4m2!3m1!1s0x4794986e17a692cd:0x4ed671b10d82498d?sa=X&ved=2ahUKEwjk0MCl6fHnAhVjmXIEHWgOBN4Q8gEwGnoECBoQBA"
+                      target="_blank"
+                      ><i class="fas fa-map-marker-alt fa-2x"></i
+                    ></a>
+                    <p>54000 Nancy, France</p>
+                  </li>
+
+                  <li>
+                    <a href="tel:+33636663679"
+                      ><i class="fas fa-phone mt-4 fa-2x"></i
+                    ></a>
+                    <p>+33 (0)6 36 66 36 79</p>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+          </section>
+          <!--Section: Contact v.2-->
+        </div>
+      </section>
+
+      <!--Section: Contact v.2-->
+    </div>
+
+    <footer>
+      <div class="social ">
+        <div class="link_footer">
+          <a href="https://www.linkedin.com/in/valentinbd/ " target="_blank "
+            ><i class="fab fa-linkedin "></i
+          ></a>
+        </div>
+
+        <div class="link_footer">
+          <a href="https://www.instagram.com/bouradefranoux/" target="_blank "
+            ><i class="fab fa-instagram "></i
+          ></a>
+        </div>
+
+        <div class="link_footer">
+          <a
+            href="https://www.facebook.com/valentin.bouradefranoux/"
+            target="_blank "
+            ><i class="fab fa-facebook-square "></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
