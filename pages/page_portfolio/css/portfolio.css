@@ -42,21 +42,6 @@ header {
   padding: 20px;
 }
 
-.deco {
-  width: 100%;
-  border: dashed 1px whitesmoke;
-  border-radius: 5px;
-  box-shadow: 0 0 0 1px #434343;
-  height: 3px;
-  display: flex;
-  align-items: center;
-}
-
-.deco2 {
-  border-top: 2px solid #808080;
-  width: 100%;
-}
-
 h1 {
   font-family: "ailerons";
   font-weight: normal;
